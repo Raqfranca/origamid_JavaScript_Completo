@@ -1,4 +1,5 @@
-### **Variáveis** 
+
+---------------------**Variáveis** ------------------- 
 
 **Responsáveis por guardar dados na memória.** 
 
@@ -68,3 +69,59 @@ preco = 25;
 const possuiFaculdade = true;
 possuiFaculdade = false;
 // Retorna um erro
+
+--------------------- **Tipos de dados** -------------------
+
+### **Tipos de dados**
+
+Em JS existe dados 7 tipos de dados que são primitivos e um que não 
+
+** dado primitivo significa que não depois de declarado não consigomos alterar o tipo da dado da variavel ** 
+
+ 
+**String**
+
+var nome = 'André'
+
+**Number**
+var idade = 28 
+
+**Underfine**
+var semDados; 
+
+quando conctanamos uma string com um número ela vir auma string :), muda o tipo de dado do elemento 
+
+**Template String**
+
+- Template String é o ` acento ao contrario  
+
+ou pode ser usado para para fazer números funcionar como números e não como string 
+
+var gols = 1000;
+var frase1 = 'Romário fez ' + gols + ' gols';
+var frase2 = `Romário fez ${gols} gols`; // Utilizando Template String
+
+
+
+//
+
+var nome = 'Angelica';
+console.log(typeof nome)
+
+var idade = 89;
+console.log(typeof idade)
+
+// null é um objeto
+var time = null;
+console.log(typeof time)
+
+var vazio; 
+console.log(typeof vazio)
+
+var simbolo = Symbol();
+console.log(typeof simbolo)
+
+
+
+
+
